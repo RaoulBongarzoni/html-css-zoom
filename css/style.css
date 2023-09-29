@@ -23,7 +23,11 @@
 .partecipanti{
     height: calc(100vh - 200px);
     overflow: auto;
-
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: black;
+    justify-content: space-around;
 
 }
 .flex{
@@ -31,4 +35,12 @@
     justify-content: end;
 
 
+}
+
+.scheda{
+    width: 18%;
+    height: 30%;
+    background-image: url(https://picsum.photos/200/300) ;
+    background-size: cover;
+    margin-bottom: 10px;
 }
